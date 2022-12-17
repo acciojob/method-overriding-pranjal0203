@@ -9,6 +9,9 @@ class B extends A{
 
 }
 public class Main {
-  B obj = new B();
-  String str = obj.meth();
+    public static void main(String args[]){
+        B obj = new B();
+        String str = obj.meth();
+    }
+
 }
